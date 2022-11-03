@@ -95,11 +95,31 @@ iPhone 10 (2017)
 - Three‑axis gyro, Accelerometer, Proximity sensor, Ambient light sensor
 - Note: there is professional measuring equipment that can also have connection functions. Therefore it's possible to attach them to a node as well.
 
-You can see by good use of old phone's sensors and their unique location on the earth. We made an Oracle that is a near-optimal decentralized way to get the world brightness and barometer data, which a web2 technology can never do because of privacy issues(people not getting paid or no way to validate each other).
+You can see by good use of old phone's sensors and their unique location on the earth. We made an Oracle that is a near-optimal decentralized way to get data from sensors in any corner worldwide.
 
 
 
 Another possible example: people/smart contracts can pay Oracle a very high price to encourage people to upload/verify the 3d model inside some building by integrating iPhone lidar (3dScanner, Polycam). The reward will be released when enough validators upload the 3d model of the area.
+
+
+
+##### Our frontend will looks like:
+
+- https://explorer.helium.com/
+
+##### Our chain is just like how Chainlink works: 
+
+- Sent Requesting Contract
+
+- Register as event
+
+- SLA(Servers Level Agreement)
+
+- - Reputation contract
+  - Order-matching Contract
+  - Aggregating contract
+
+> Note that our node is bound in a physical location. Therefore instead of aggregating data in random nodes, we only request nodes/aggregating the data from queried geometry area/block. As we get more users, the physical area of a block can be smaller by dividing it, hence the higher resolution of the sensor map.
 
 
 
