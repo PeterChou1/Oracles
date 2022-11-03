@@ -53,6 +53,12 @@
 
 
 
+## Peter's idea
+
+Make a Chainlink!
+
+
+
 ## Soso's idea
 
 Peter mentioned the nodes only trust a limited amount of source that is hard coded in each oracle script. For example, the weather oracle script will have weather.google.com and weather.yahoo.com hard coded in it, which looks pretty centralized and makes web3 highly dependent on some servers in web2.
