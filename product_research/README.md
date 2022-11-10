@@ -51,15 +51,36 @@
    - Use Chainlink/AnyAPI
 
 
+## Concepts
+
+#### Smart Contracts:
+
+#### Oracles:
+Smart Contract: 
+Consensus: How a blockchain agrees upon a particluar state.
+Oracle: Connects deterministic blockchains to data from the outside world. Off-chain oracle is reported on-chain as a transaction. Oracle = Blockchain Middleware.
+Problem: Blockchains must be deterministic. ConsSuppose we have a smart contract that needs particular 
+
+Oracle Problem: Decentralization is the key. Blockchains can't access external data. Centralized oracles = centralized data sources, cancles out the advantages of the decentralization of a blockchain.
+
+Chainlink's Solution: Replacement of middlemen.
+How does data get onto the CL network? 
 
 
-## Peter's idea
+
+## Nikhil's Idea
+
+TLDR: Make a L2 Oracle Solution!
+
+
+
+## Peter's Idea
 
 Make a Chainlink!
 
 
 
-## Soso's idea
+## Soso's Idea
 
 Peter mentioned the nodes only trust a limited amount of source that is hard coded in each oracle script. For example, the weather oracle script will have weather.google.com and weather.yahoo.com hard coded in it, which looks pretty centralized and makes web3 highly dependent on some servers in web2.
 
@@ -120,6 +141,4 @@ Another possible example: people/smart contracts can pay Oracle a very high pric
   - Aggregating contract
 
 > Note that our node is bound in a physical location. Therefore instead of aggregating data in random nodes, we only request nodes/aggregating the data from queried geometry area/block. As we get more users, the physical area of a block can be smaller by dividing it, hence the higher resolution of the sensor map.
-
-
 

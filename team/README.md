@@ -1,5 +1,5 @@
-People at team-oracles
----
-- Nikhil Lakhwani
+## Team Oracle Members:
+
 - Soso Song (Zhifei Song)
-- Peter
+- Nikhil Lakhwani
+- Peter Chou
